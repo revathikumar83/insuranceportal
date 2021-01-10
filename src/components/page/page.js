@@ -1,5 +1,5 @@
 
-import React,{ Component } from 'react';
+/*import React,{ Component } from 'react';
 import Pagination from "react-js-pagination";
 import './page.css';
 
@@ -39,7 +39,7 @@ class Page extends Component{
         
 export default Page;        
 
-
+*/
 
 
   

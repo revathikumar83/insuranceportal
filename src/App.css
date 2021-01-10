@@ -1,12 +1,12 @@
 .App {
   display: grid;
-    height: 130vh;
+    height: 138vh;
     grid-template-areas:  "hd hd hd hd hd hd hd hd hd hd" "sd main main main main main main main main sp" "ft ft ft ft ft ft ft ft ft ft";
     border: 2px black;
     grid-template-rows: 70px 950px 70px;
       grid-template-columns: 0px 1260px 0px;
     grid-gap: 35px;
-    background-color:#ebf6f9; 
+    background-color:#F6FDFC;  /*#ebf6f9*/
 }
 /* medium screens*/
 

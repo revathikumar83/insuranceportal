@@ -4,8 +4,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import Slide from 'react-reveal/Slide';
 //import Modal from 'react-modal';
 import Table from '../Table/Table';
-import Page from '../page/page';
+//import Page from '../page/page';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+//import CancelIcon from '@material-ui/icons/Cancel';
+import CancelRoundedIcon from '@material-ui/icons/CancelRounded';
+
 
 class Home extends Component{
     constructor(props){
@@ -60,10 +63,10 @@ class Home extends Component{
         <div>
         <button >Download</button>
         </div>
-        <div className="closemodal">
-        <button className="close" onClick={this.closemodal} >
-            x
-        </button>
+        <div className="closemodal" onClick={this.closemodal}>
+          
+        <CancelRoundedIcon font-size="15%"/>
+        
         </div>
     </div>
     </Slide>
