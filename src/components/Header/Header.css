@@ -1,0 +1,135 @@
+header{
+    grid-area:hd;
+    margin-top: 0px;
+    background-color:#808080; 
+    width:100%;
+    position: sticky;
+    top: 0;
+    
+  }
+
+  .logo{
+    width:150px;
+    height:40px;
+    margin-top: 11px;
+    margin-left: 10px;
+    }
+    .navbar{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    /*.nav{
+      display: flex;
+      flex-direction: row;
+      margin-right: 150px;
+      color:white;
+      color: rgb(243, 242, 236);
+      
+      
+    }*/
+    .image{
+      display: flex;
+      flex-direction: row;
+      
+      color:white;
+    }
+    .navpara__flex{
+      display: flex;
+      flex-direction: row;
+      margin-left: 60px;
+      color:white;
+    }
+    
+    .navpara__flex p{
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-right: 40px;
+      cursor: pointer;
+      color:white !important;
+      margin-top: 20px;
+      text-decoration:none ;
+    }
+    .nav p{
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-right: 40px;
+      cursor: pointer;
+      color:white !important;
+    
+    }
+    .nav p:hover{
+      
+      color:rgb(216, 212, 212);
+    }
+    
+    .navpara__flex p:hover{
+      text-decoration: none;
+      color:rgb(216, 212, 212);
+    }
+    
+    .arrow{
+    margin-right: 10px;
+    }
+    .linky{
+        text-decoration: none;
+        color: rgb(243, 242, 236);;
+        
+    }
+    .linky:hover{
+        color:rgb(216, 212, 212);;
+    }
+    .image p{
+      color: white;
+    }
+
+    /*** dropdown navbar ***/
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 190px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      margin-top: 5px;
+      margin-left: -30px;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 18px;
+    }
+    
+    .dropdown-content a:hover {color: #757373}
+
+    
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #757274;
+}
+.dropbtn {
+  
+  color: white;
+  
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+ .navpara{
+   color: white;
+ }   

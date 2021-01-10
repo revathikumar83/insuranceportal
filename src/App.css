@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  display: grid;
+    height: 130vh;
+    grid-template-areas:  "hd hd hd hd hd hd hd hd hd hd" "sd main main main main main main main main sp" "ft ft ft ft ft ft ft ft ft ft";
+    border: 2px black;
+    grid-template-rows: 70px 950px 70px;
+      grid-template-columns: 0px 1260px 0px;
+    grid-gap: 35px;
+    background-color:#ebf6f9; 
 }
+/* medium screens*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 600px) and (max-width: 1100px) {
+  body {
+      display: grid;
+      grid-template-areas: "sd hd  hd hd hd hd hd sp " "sd main main main main main sp sp" " ft ft ft ft ft ft ft ft";
+      grid-template-rows: 70px 800px 70px;
+      grid-template-columns: 80px 600px 60px;;
+      border: 2px gray;
+      grid-gap: 5px;
+      background-color: whitesmoke;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+/* larger screens */
+
+@media (max-width: 1101px) {
+  body {
+      display: grid;
+      grid-template-areas: "sd hd  hd hd hd hd hd sp" "sd main main main main main sp sp" "ft ft ft ft ft ft ft ft";
+      grid-template-rows: 70px 800px 70px;
+      grid-template-columns: 80px 600px 60px;
+      border: 2px gray;
+      grid-gap: 5px;
+      background-color: whitesmoke;
+  }
+}
+
+header{
+  grid-area:hd;
+  margin-top: 0px;
+  background-color: rgb(110, 109, 109);
+  width:100%;
+  position: sticky;
+  top: 0;
+  
+}
+main{
+  grid-area:main;
+  background-color: white;
+  box-shadow: 2px 4px 8px 2px lightslategrey;
+  
+}
+footer{
+  grid-area:ft;
+  background-color: rgb(68, 65, 65);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
 }

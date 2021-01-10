@@ -1,0 +1,153 @@
+.home__page{
+   font-weight: 700;
+   
+}
+.home__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:  1px solid rgb(206, 209, 211);
+    border-bottom-width:  thin;
+    width:95%;
+    margin-left: 30px;
+}
+.home__head h4{
+        margin-left: 10px;
+}
+.home__search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.filter__button{
+    margin-top: 12px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.filter__button button{
+margin-right: 20px;
+height:40px;
+margin-right:10px ;
+font-size: 18px;
+width:150px;
+border-radius: 6px;
+background-color: rgb(36, 128, 151);
+color:whitesmoke;
+border-color:rgb(36, 128, 151);
+}
+.search__button{
+   font-size:18px ;
+   width:150px;
+   height:35px;
+   margin-right: 20px;
+   
+}
+.sort__button button{
+   font-size:19px ;
+   font-weight: bold;
+   width:100px;
+   height:35px;
+   padding: 5px;
+   background-color: rgb(138, 139, 139);
+   margin-left: 30px;
+   color: rgb(241, 238, 238);
+   border-radius: 10px;
+
+}
+.search__button{
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+}
+.search__button input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom:1px solid white ;
+    background-color: gray;
+    border-radius: 20px;
+    width: 0px;
+    color: black;
+    font-size: 18px;
+    color: rgb(253, 239, 239);
+    width: 180px;
+}
+.search__button input:hover{
+    width: 180px;
+}
+.search__button button{
+    border-radius: 50px;
+    background-color: rgb(167, 170, 170);
+    color: rgb(241, 238, 238);
+    
+}
+ .icon{
+background-color: gray;
+color: honeydew;
+border-radius:50px ;
+height: 120px;
+margin-left: -25px;
+
+}
+
+.table{
+    margin-top: 20px;
+}
+.apply__filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom:  1px solid rgb(206, 209, 211);
+    border-bottom-width:  thin;
+    margin: 35px;
+}
+.apply__filter div{
+    margin-bottom: 20px;
+}
+.filter__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.apply__filter button{
+font-size: 18px;
+width:150px;
+border-radius: 6px;
+background-color: rgb(36, 128, 151);
+color:whitesmoke;
+border-color:rgb(36, 128, 151);
+height:40px;
+margin-top: 40px;
+}
+.filter__input input{
+    height: 25px;
+    border-radius:6px;
+    font-size: 16px;
+}
+.closemodal button{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:7px ;
+width:25px;
+border-radius: 6px;
+background-color: rgb(113, 115, 116);
+color:rgb(243, 237, 237);
+border-color:rgb(5, 7, 7);
+height:25px;
+float:right;
+margin-top: -20px;
+cursor: pointer;
+
+}
+.search{
+    color: white;
+}
+.arrow{
+    margin-left: -23px;
+    color: white;
+    cursor: pointer;
+}

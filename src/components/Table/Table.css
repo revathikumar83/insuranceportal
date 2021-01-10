@@ -1,0 +1,36 @@
+
+  thead{
+      background-color: rgb(80, 79, 79);
+      color: white;
+      font-size: 14px;
+      padding: 5px;
+  }
+  th,td{
+      width:20px;
+  }
+  td{
+    margin-top: 50px;
+  }
+  table {
+    
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  table, td, th {  
+    border: 1px solid rgb(167, 170, 173);
+    
+  }
+  .table__page{
+      margin-top: 60px;
+      margin-left: 30px;
+      margin-right: 30px;
+      height:65vh;
+      
+  }
+  
+  
